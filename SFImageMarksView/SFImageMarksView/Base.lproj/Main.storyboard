@@ -16,11 +16,46 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XJy-br-FuU" customClass="DrawLine" customModule="SFImageMarksView" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="301" width="600" height="299"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8OW-K1-jL3">
+                                <rect key="frame" x="0.0" y="300" width="600" height="1"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="N6V-sf-pt5"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4w2-Z1-K2v" customClass="DrawLine" customModule="SFImageMarksView" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="300"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="XJy-br-FuU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="46q-bt-f3M"/>
+                            <constraint firstAttribute="trailing" secondItem="4w2-Z1-K2v" secondAttribute="trailing" id="ChG-rt-HUf"/>
+                            <constraint firstItem="XJy-br-FuU" firstAttribute="height" secondItem="4w2-Z1-K2v" secondAttribute="height" id="LlS-4N-hzG"/>
+                            <constraint firstAttribute="trailing" secondItem="XJy-br-FuU" secondAttribute="trailing" id="T72-8Q-RdU"/>
+                            <constraint firstItem="XJy-br-FuU" firstAttribute="top" secondItem="8OW-K1-jL3" secondAttribute="bottom" id="kYN-CH-p42"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="XJy-br-FuU" secondAttribute="bottom" id="p2F-Fc-S2C"/>
+                            <constraint firstItem="4w2-Z1-K2v" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="txn-K6-VeD"/>
+                            <constraint firstItem="8OW-K1-jL3" firstAttribute="top" secondItem="4w2-Z1-K2v" secondAttribute="bottom" id="upE-FX-Xzb"/>
+                            <constraint firstItem="4w2-Z1-K2v" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="uuz-oy-45A"/>
+                            <constraint firstAttribute="trailing" secondItem="8OW-K1-jL3" secondAttribute="trailing" id="y9E-Lp-Kzr"/>
+                            <constraint firstItem="8OW-K1-jL3" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="yBj-jb-ZcK"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="lineView1" destination="4w2-Z1-K2v" id="DTW-t2-xgt"/>
+                        <outlet property="lineView2" destination="XJy-br-FuU" id="FXu-Af-DtK"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="309" y="278"/>
         </scene>
     </scenes>
 </document>
