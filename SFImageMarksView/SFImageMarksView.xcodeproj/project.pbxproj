@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B95330921BF0D00600302AEE /* DrawLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95330911BF0D00600302AEE /* DrawLine.swift */; };
+		B97193D01BF3683F005F886E /* SmoothDraw.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97193CF1BF3683F005F886E /* SmoothDraw.swift */; };
 		B9E2A0C01BECE5ED007CA9D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E2A0BF1BECE5ED007CA9D9 /* AppDelegate.swift */; };
 		B9E2A0C21BECE5ED007CA9D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E2A0C11BECE5ED007CA9D9 /* ViewController.swift */; };
 		B9E2A0C51BECE5ED007CA9D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9E2A0C31BECE5ED007CA9D9 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		B95330911BF0D00600302AEE /* DrawLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawLine.swift; sourceTree = "<group>"; };
+		B97193CF1BF3683F005F886E /* SmoothDraw.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmoothDraw.swift; sourceTree = "<group>"; };
 		B9E2A0BC1BECE5ED007CA9D9 /* SFImageMarksView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SFImageMarksView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9E2A0BF1BECE5ED007CA9D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B9E2A0C11BECE5ED007CA9D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				B9E2A0BF1BECE5ED007CA9D9 /* AppDelegate.swift */,
 				B9E2A0C11BECE5ED007CA9D9 /* ViewController.swift */,
 				B95330911BF0D00600302AEE /* DrawLine.swift */,
+				B97193CF1BF3683F005F886E /* SmoothDraw.swift */,
 				B9E2A0C31BECE5ED007CA9D9 /* Main.storyboard */,
 				B9E2A0C61BECE5ED007CA9D9 /* Assets.xcassets */,
 				B9E2A0C81BECE5ED007CA9D9 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 				B9E2A0C21BECE5ED007CA9D9 /* ViewController.swift in Sources */,
 				B95330921BF0D00600302AEE /* DrawLine.swift in Sources */,
 				B9E2A0C01BECE5ED007CA9D9 /* AppDelegate.swift in Sources */,
+				B97193D01BF3683F005F886E /* SmoothDraw.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
