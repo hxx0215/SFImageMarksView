@@ -10,6 +10,7 @@ import UIKit
 
 class SmoothDraw: UIView {
 
+    let path = UIBezierPath()
     override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
         
     }
